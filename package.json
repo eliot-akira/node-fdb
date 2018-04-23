@@ -16,7 +16,8 @@
     "x64"
   ],
   "scripts": {
-    "install": "node-gyp rebuild"
+    "install": "node-gyp rebuild",
+    "prepublish": "tsc -p ."
   },
   "dependencies": {
     "bindings": "*",
